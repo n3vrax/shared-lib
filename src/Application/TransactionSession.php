@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace n3vrax\ShareLib\Application;
+namespace n3vrax\SharedLib\Application;
 
 /**
  * Interface TransactionSession

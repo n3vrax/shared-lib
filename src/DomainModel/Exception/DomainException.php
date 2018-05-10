@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace n3vrax\ShareLib\DomainModel\Exception;
+namespace n3vrax\SharedLib\DomainModel\Exception;
 
 /**
  * Interface DomainException

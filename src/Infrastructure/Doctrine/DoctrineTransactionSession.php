@@ -8,10 +8,10 @@
 
 declare(strict_types=1);
 
-namespace n3vrax\ShareLib\Infrastructure\Doctrine;
+namespace n3vrax\SharedLib\Infrastructure\Doctrine;
 
 use Doctrine\ORM\EntityManager;
-use n3vrax\ShareLib\Application\TransactionSession;
+use n3vrax\SharedLib\Application\TransactionSession;
 
 /**
  * Class DoctrineTransactionSession

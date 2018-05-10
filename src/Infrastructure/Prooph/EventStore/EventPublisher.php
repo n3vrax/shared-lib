@@ -8,9 +8,9 @@
 
 declare(strict_types=1);
 
-namespace n3vrax\ShareLib\Infrastructure\Prooph\EventStore;
+namespace n3vrax\SharedLib\Infrastructure\Prooph\EventStore;
 
-use n3vrax\ShareLib\Infrastructure\Prooph\ServiceBus\TransactionalPlugin;
+use n3vrax\SharedLib\Infrastructure\Prooph\ServiceBus\TransactionalPlugin;
 use Prooph\Common\Event\ActionEvent;
 use Prooph\EventStore\ActionEventEmitterEventStore;
 use Prooph\EventStore\Plugin\AbstractPlugin as AbstractEventStorePlugin;

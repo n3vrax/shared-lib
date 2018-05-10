@@ -8,9 +8,9 @@
 
 declare(strict_types=1);
 
-namespace n3vrax\ShareLib\Infrastructure\Prooph\ServiceBus;
+namespace n3vrax\SharedLib\Infrastructure\Prooph\ServiceBus;
 
-use n3vrax\ShareLib\Application\TransactionSession;
+use n3vrax\SharedLib\Application\TransactionSession;
 use Prooph\Common\Event\ActionEvent;
 use Prooph\ServiceBus\MessageBus;
 use Prooph\ServiceBus\Plugin\AbstractPlugin;
