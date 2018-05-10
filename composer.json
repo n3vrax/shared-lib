@@ -1,0 +1,19 @@
+{
+  "name": "n3vrax/shared-lib",
+  "description": "Shared common classes for own apps",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "prooph/common": "^4.2"
+  },
+  "require-dev": {
+    "prooph/event-store": "^7.3",
+    "prooph/service-bus": "^6.2",
+    "doctrine/orm": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "n3vrax\\SharedLib\\": "src/"
+    }
+  }
+}
